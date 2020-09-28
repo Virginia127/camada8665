@@ -1,0 +1,30 @@
+
+/*.formatoscroll{
+    min-height: 45vh;
+    background-size: cover;
+    margin-bottom: 3%;
+    background-attachment: fixed;   /* Makes the image fixed in the viewport so that it doesn't move when*/
+  }/*
+.img--mobiliario{
+    @extend .formatoscroll;
+    background: url("../img/f_scroll/mobiliario2.jpg");
+    background-position: center center;
+    position: relative;
+
+}*/
+  
+
+  
+
+  /*esto lo pasé a scss
+  filtro index mural 
+  #formatos .scroll_mobiliario::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(68, 64, 88, 0.25);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }*/

@@ -1,0 +1,15 @@
+%btn {
+  display: inline-block;
+  background: $color-secundario;
+  padding: 10px;
+  color: #fff;
+  font-family: $fuente-parrafos;
+  font-size: $tamanio-parrafos;
+  text-decoration: none;
+}
+
+%titulo {
+  font-family: $fuente-titulos;
+  font-size: $tamanio-titulos;
+  margin-bottom: $margin-titulos;
+}

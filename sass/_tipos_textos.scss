@@ -1,0 +1,92 @@
+/*general*/
+/*texto bajada secciones_campañas*/
+/*placeholder*/
+%titulo_seccion{
+font-family:$font_titulo;
+font-size: $seccion_font-size;
+font-weight: 600;
+letter-spacing: 0.8px;
+word-spacing: 0.2rem;
+color: $azul-titulo;
+text-align: center;
+}
+
+.titulo__seccion--c{
+  @extend %titulo_seccion;
+  padding-top: 100px;
+}
+
+.titulo__seccion--f {
+  @extend %titulo_seccion;
+  padding-top: 2rem;
+}
+.titulo__seccion--co {
+  @extend %titulo_seccion;
+}
+
+/*texto bajada secciones_campañas*/
+%bajada_seccion{
+  color: #747172;
+  font-family: $font-texto;
+  font-size: 1rem;
+  padding-top: 0.3rem;
+  letter-spacing: 0.2px;
+  margin-left: 25%;
+  margin-right: 25%;
+} 
+.bajada__titulo__seccion--f{
+  @extend %bajada_seccion;
+} 
+.bajada__titulo__seccion--c{
+  @extend %bajada_seccion;
+} 
+
+
+  /*4_FORMATOS_TXTZOCALO_SCROLL*/
+#formatos .img__zocaloScroll--txt{
+    font-family: $font_texto;
+    font-size: 1.5rem;
+    font-weight: 600;
+    letter-spacing: 0.8px;
+    word-spacing: 0.2rem;
+    text-align: center;
+    text-transform: lowercase;
+    padding-top: 19.2vh;
+    color:$blanco;
+  
+    &.img__zocaloScroll--txt a{
+    text-decoration: none;
+    
+    &.img__zocaloScroll--txt a:hover{
+    color:$orange-principal;
+    }
+    }
+  }
+
+  
+
+/*4 FORMATOS_títulos -textos*/
+
+#formatos .formatos__card__titulo {
+    font-family:$font_titulo;
+    font-size: 0.8rem;
+    padding-bottom: 2px;
+    padding-top: 0.4rem;  
+}
+
+/*textos*/
+#formatos .formatos__card__titulo--texto{
+  @extend .formatos__card__titulo;
+  font-family: $font_texto;
+  line-height: 0.75rem;
+  color:$gris-principal;
+  padding-top: 5px;
+  }
+
+ /*titulos albunes izquierda*/
+#formatos .subtitulo_secciones_left {
+  font-family:$font_titulo;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color:$gris-principal;
+  }

@@ -1,0 +1,26 @@
+/*mixims*/
+@mixin zocaloScroll ($imgpath, $min-heigh, $background-size, $background-position, $background-attachment, $position, $margin-botton){
+    background-image: url($imgpath);
+    min-height: $min-heigh;
+    background-size: $background-size;
+    background-position: $background-position;
+    background-attachment: $background-attachment;  
+    position: $position;
+    margin-bottom: $margin-botton;
+  }
+ 
+.img__zocaloScroll--mobiliario{
+    @include zocaloScroll("../img/f_scroll/mobiliario2.jpg",45vh, cover, center center,fixed, relative, 3%);
+}
+.img__zocaloScroll--vallados{
+    @include zocaloScroll("../img/f_scroll/mobiliario2.jpg",45vh, cover, center center,fixed, relative, 3%);
+    width: 100%;
+}
+.img__zocaloScroll--subtes_trenes{
+    @include zocaloScroll("../img/f_scroll/mobiliario2.jpg",45vh, cover, center center,fixed, relative, 3%);
+    width: 100%;
+}
+.img__zocaloScroll--moviles_carteles{
+    @include zocaloScroll("../img/f_scroll/mobiliario2.jpg",45vh, cover, center center,fixed, relative, 3%);
+    width: 100%;
+}

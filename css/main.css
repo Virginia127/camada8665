@@ -1,0 +1,286 @@
+@charset "UTF-8";
+/*variables color*/
+/*botones*/
+/*color filtro*/
+/*variables fonts_esto es un bajón, viva el indesign*/
+/*padding-margin*/
+/*interlinea-interletra*/
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+/*general*/
+/*texto bajada secciones_campañas*/
+/*placeholder*/
+.titulo__seccion--co, .titulo__seccion--f, .titulo__seccion--c {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  word-spacing: 0.2rem;
+  color: #1C3643;
+  text-align: center;
+}
+
+.titulo__seccion--c {
+  padding-top: 100px;
+}
+
+.titulo__seccion--f {
+  padding-top: 2rem;
+}
+
+/*texto bajada secciones_campañas*/
+.bajada__titulo__seccion--c, .bajada__titulo__seccion--f {
+  color: #747172;
+  font-family: "Monserrat", sans-serif;
+  font-size: 1rem;
+  padding-top: 0.3rem;
+  letter-spacing: 0.2px;
+  margin-left: 25%;
+  margin-right: 25%;
+}
+
+/*4_FORMATOS_TXTZOCALO_SCROLL*/
+#formatos .img__zocaloScroll--txt {
+  font-family: "Monserrat", sans-serif;
+  font-size: 1.5rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  word-spacing: 0.2rem;
+  text-align: center;
+  text-transform: lowercase;
+  padding-top: 19.2vh;
+  color: #fff;
+}
+#formatos .img__zocaloScroll--txt.img__zocaloScroll--txt a {
+  text-decoration: none;
+}
+#formatos .img__zocaloScroll--txt.img__zocaloScroll--txt a.img__zocaloScroll--txt a:hover {
+  color: #ff684c;
+}
+
+/*4 FORMATOS_títulos -textos*/
+#formatos .formatos__card__titulo, #formatos .formatos__card__titulo--texto {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.8rem;
+  padding-bottom: 2px;
+  padding-top: 0.4rem;
+}
+
+/*textos*/
+#formatos .formatos__card__titulo--texto {
+  font-family: "Monserrat", sans-serif;
+  line-height: 0.75rem;
+  color: #747172;
+  padding-top: 5px;
+}
+
+/*titulos albunes izquierda*/
+#formatos .subtitulo_secciones_left {
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  font-weight: 700;
+  color: #747172;
+}
+
+/*mixims*/
+.img__zocaloScroll--mobiliario {
+  background-image: url("../img/f_scroll/mobiliario2.jpg");
+  min-height: 45vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 3%;
+}
+
+.img__zocaloScroll--vallados {
+  background-image: url("../img/f_scroll/mobiliario2.jpg");
+  min-height: 45vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.img__zocaloScroll--subtes_trenes {
+  background-image: url("../img/f_scroll/mobiliario2.jpg");
+  min-height: 45vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+.img__zocaloScroll--moviles_carteles {
+  background-image: url("../img/f_scroll/mobiliario2.jpg");
+  min-height: 45vh;
+  background-size: cover;
+  background-position: center center;
+  background-attachment: fixed;
+  position: relative;
+  margin-bottom: 3%;
+  width: 100%;
+}
+
+/*4_FORMATO EXEND_ver más ets*/
+.formatos__btn, .formatos__btn--a {
+  width: 60px;
+  padding-top: 25px;
+  margin-top: 10px;
+  margin-left: 0px;
+  box-sizing: content-box;
+  cursor: pointer;
+  padding: 6px 6px 6px 6px;
+  border: none;
+  border-radius: 3px;
+  font-family: "Roboto Condensed", sans-serif;
+  font-size: 0.6rem;
+  font-weight: 800;
+  color: #fff;
+  text-align: center;
+  text-transform: uppercase;
+  letter-spacing: 0.1rem;
+  text-overflow: clip;
+  background: #032e48;
+  transition: background 0.2s cubic-bezier(0.25, 0.25, 0.75, 0.75);
+  display: block;
+}
+.formatos__btn.formatos__btn:hover, .formatos__btn--a:hover {
+  background: #007bff;
+}
+
+.formatos__btn--a {
+  width: 32px;
+  margin-left: 8px;
+}
+.formatos__btn--a.formatos__btn--a:hover {
+  background: #007bff;
+}
+
+#formatos .icono-dialogo {
+  padding-top: 0.7rem;
+}
+
+.bi-chat-right-text-fill {
+  padding-top: 0.4rem;
+}
+.bi-chat-right-text-fill.bi-chat-right-text-fill:hover {
+  color: #007bff;
+}
+
+/*5_CONTACTO whatsapp*/
+.whatsapp {
+  position: fixed;
+  width: 60px;
+  height: 60px;
+  bottom: 110px;
+  right: 70px;
+  background-color: #00c0a5;
+  border-color: #fff;
+  color: #fff;
+  border-radius: 50px;
+  text-align: center;
+  font-size: 2rem;
+  z-index: 100;
+}
+.whatsapp.whatsapp:hover {
+  background-color: #00e676;
+  color: #fff;
+}
+.whatsapp .whatsapp-icon {
+  margin-top: 14px;
+}
+
+.fa-color {
+  color: #ff684c;
+}
+
+.feature-list i, .orange-icons i {
+  color: #ff684c;
+}
+
+#header .nav {
+  width: 70%;
+  height: 69px;
+  display: flex;
+  justify-content: flex-end;
+  box-sizing: border-box;
+}
+#header .nav #header nav ul {
+  display: flex;
+  flex-direction: row;
+  font-size: 0;
+  text-align: center;
+}
+#header .nav #header nav ul #header nav ul li {
+  text-transform: lowercase;
+  list-style-type: none;
+  font-family: "Open Sans", sans-serif;
+  font-size: 0.9rem;
+  /*cambia el tamaño de las tipos del nav*/
+  font-weight: 600;
+  margin-left: auto;
+  padding-left: 0.7rem;
+  display: inline-block;
+  position: relative;
+  margin: 3px;
+}
+#header .nav #header nav ul #header nav ul li #header nav li:hover > ul {
+  display: block;
+}
+#header .nav #header nav ul #header nav ul li #header nav li:hover > ul #header nav ul li a {
+  justify-content: flex-end;
+  text-decoration: none;
+  color: #747172;
+}
+#header .nav #header nav ul #header nav ul li #header nav li:hover > ul #header nav ul li a #header nav ul li a:hover {
+  color: #ff7a36;
+  display: inline-block;
+  width: auto;
+  transition: all 0.1s;
+}
+#header .nav #header nav ul #header nav ul li #header nav li:hover > ul #header nav ul li a #header nav ul li a:hover #header ul li:hover ul {
+  display: block;
+}
+
+#contacto div .banner_top_gris {
+  background-color: #F2F4F6;
+  padding-top: 50px;
+  padding-bottom: 25px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+#contacto div .banner_top_gris h2 .seccion {
+  font-family: "Open Sans", sans-serif;
+  font-size: 2rem;
+  font-weight: 600;
+  letter-spacing: 0.8px;
+  word-spacing: 0.2rem;
+  color: #1C3643;
+  text-align: center;
+}
+#contacto div .banner_top_gris p .bajada_seccion {
+  color: #ff7a36;
+  font-family: "Monserrat", sans-serif;
+  font-size: 1rem;
+  padding-top: 0.3rem;
+  letter-spacing: 0.2px;
+  margin-left: 20%;
+  margin-right: 20%;
+}

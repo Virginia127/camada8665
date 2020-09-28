@@ -1,0 +1,49 @@
+#header .nav {
+    width: 70%;
+    height: 69px;
+    display: flex;
+    justify-content: flex-end;
+    box-sizing: border-box;
+
+    #header nav ul {
+        display: flex; 
+        flex-direction:row;
+        font-size: 0;
+        text-align: center;
+
+            #header nav ul li {
+                text-transform: lowercase;
+                list-style-type: none;
+                font-family: 'Open Sans', sans-serif;
+                font-size: 0.9rem; /*cambia el tamaño de las tipos del nav*/
+                font-weight: 600;
+                margin-left: auto;
+                padding-left:0.7rem;
+                display: inline-block;
+                position: relative;
+                margin: 3px;
+
+                    #header nav li:hover > ul {
+                        display:block;
+
+                            #header nav ul li a {
+                                justify-content: flex-end;
+                                text-decoration: none;
+                                color:#747172;
+                                
+                                    #header nav ul li a:hover { 
+                                        color: #ff7a36;
+                                        display:inline-block;
+                                        width: auto;
+                                        transition: all .1s;
+
+                                    #header ul li:hover ul {
+                                        display: block;
+                                        }
+                                    }
+                                }
+                            }
+                        }
+                    }
+}
+ 
