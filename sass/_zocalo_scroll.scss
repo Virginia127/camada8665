@@ -10,17 +10,17 @@
   }
  
 .img__zocaloScroll--mobiliario{
-    @include zocaloScroll("../img/f_scroll/mobiliario2.jpg",45vh, cover, center center,fixed, relative, 3%);
+    @include zocaloScroll("../img/f_scroll/mobilidario.jpg",45vh, cover, center center,fixed, relative, 3%);
 }
 .img__zocaloScroll--vallados{
-    @include zocaloScroll("../img/f_scroll/mobiliario2.jpg",45vh, cover, center center,fixed, relative, 3%);
+    @include zocaloScroll("../img/f_scroll/vallados.jpg",45vh, cover, center center,fixed, relative, 3%);
     width: 100%;
 }
 .img__zocaloScroll--subtes_trenes{
-    @include zocaloScroll("../img/f_scroll/mobiliario2.jpg",45vh, cover, center center,fixed, relative, 3%);
+    @include zocaloScroll("../img/f_scroll/trenes.jpg",45vh, cover, center center,fixed, relative, 3%);
     width: 100%;
 }
 .img__zocaloScroll--moviles_carteles{
-    @include zocaloScroll("../img/f_scroll/mobiliario2.jpg",45vh, cover, center center,fixed, relative, 3%);
+    @include zocaloScroll("../img/f_scroll/carteles.jpg",45vh, cover, center center,fixed, relative, 3%);
     width: 100%;
 }

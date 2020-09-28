@@ -96,7 +96,7 @@ a {
 
 /*mixims*/
 .img__zocaloScroll--mobiliario {
-  background-image: url("../img/f_scroll/mobiliario2.jpg");
+  background-image: url("../img/f_scroll/mobilidario.jpg");
   min-height: 45vh;
   background-size: cover;
   background-position: center center;
@@ -106,7 +106,7 @@ a {
 }
 
 .img__zocaloScroll--vallados {
-  background-image: url("../img/f_scroll/mobiliario2.jpg");
+  background-image: url("../img/f_scroll/vallados.jpg");
   min-height: 45vh;
   background-size: cover;
   background-position: center center;
@@ -117,7 +117,7 @@ a {
 }
 
 .img__zocaloScroll--subtes_trenes {
-  background-image: url("../img/f_scroll/mobiliario2.jpg");
+  background-image: url("../img/f_scroll/trenes.jpg");
   min-height: 45vh;
   background-size: cover;
   background-position: center center;
@@ -128,7 +128,7 @@ a {
 }
 
 .img__zocaloScroll--moviles_carteles {
-  background-image: url("../img/f_scroll/mobiliario2.jpg");
+  background-image: url("../img/f_scroll/carteles.jpg");
   min-height: 45vh;
   background-size: cover;
   background-position: center center;
