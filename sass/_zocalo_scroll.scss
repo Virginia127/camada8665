@@ -24,3 +24,13 @@
     @include zocaloScroll("../img/f_scroll/carteles.jpg",45vh, cover, center center,fixed, relative, 3%);
     width: 100%;
 }
+#formatos .img__zocaloScroll--mobiliario::before {
+    content: "";
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(68, 64, 88, 0.5);
+    position: absolute;
+    left: 0;
+    top: 0;
+  }

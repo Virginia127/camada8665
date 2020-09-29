@@ -335,7 +335,7 @@ h1, h2, h3, h4, h5, h6, p{
 /*background*/
 
 #home {
-  background: url("../img/index_mural_3-1.jpg");
+  background: url("../img/index.jpg");
   min-height: 100vh;
   background-size: cover;
   background-position: center center;
@@ -380,6 +380,12 @@ h1, h2, h3, h4, h5, h6, p{
   padding-right: 15%;
 }
 /*SOMOS NEXTMEDIA*/
+.area_contenedor_100{
+  display: table;
+  padding-top: 69px;
+  width: 100%;
+}
+
 #home .texto_bajada_index {
     font-family:'Open Sans', sans-serif;
     font-size: 1.5rem;
@@ -388,14 +394,8 @@ h1, h2, h3, h4, h5, h6, p{
     text-align: left;
     word-spacing: 5px;
     padding-top: 1.6rem;
-
 }
 
-.area_contenedor_100{
-  display: table;
-  padding-top: 69px;
-  width: 100%;
-}
 .texto_bajada_index span {
     color:#eee;
     line-height: 1.8rem;
@@ -1629,16 +1629,7 @@ input[type=checkbox]:checked + label {
 }
 
 /*filtro index mural */
-#formatos .img__zocaloScroll::before {
-  content: "";
-  display: block;
-  width: 100%;
-  height: 100%;
-  background: rgba(68, 64, 88, 0.5);
-  position: absolute;
-  left: 0;
-  top: 0;
-}
+
 
 #formatos #mobiliario_urbano:target { 
   padding-top: 128px; 

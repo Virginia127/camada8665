@@ -44,8 +44,8 @@ text-align: center;
 
   /*4_FORMATOS_TXTZOCALO_SCROLL*/
 #formatos .img__zocaloScroll--txt{
-    font-family: $font_texto;
-    font-size: 1.5rem;
+    font-family: $font-scroll;
+    font-size: 2rem;
     font-weight: 600;
     letter-spacing: 0.8px;
     word-spacing: 0.2rem;
@@ -54,11 +54,11 @@ text-align: center;
     padding-top: 19.2vh;
     color:$blanco;
   
-    &.img__zocaloScroll--txt a{
+    & .img__zocaloScroll--txt a{
     text-decoration: none;
     
     &.img__zocaloScroll--txt a:hover{
-    color:$orange-principal;
+    color:#fff;
     }
     }
   }
